@@ -14,6 +14,8 @@ color = gets.chop
 
 if color == "blue"
     puts "Wow! My favorite color is #{color} also!"
+    exit(true)
 else
     puts "I'm not a big fan of #{color}."
+    exit(true)
 end
